@@ -1,8 +1,15 @@
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+
   body{
     background: url('assets/wxnder.png')
+  }
+  @media only screen and (max-width: 600px){
+    body{
+      background: url('assets/wxnder_mobile.png') center/cover;
+    }
   }
   </style>
     <title>
@@ -11,6 +18,31 @@
     </title>
   </head>
   <body>
+
+
+
     <!-- <img src='assets/wxnder.png' style='width:100%;'/> -->
+
+
+
+<!-- <script>
+  x = 200;
+  y = 200;
+
+  setInterval(function(){
+
+    var div = document.createElement('div')
+    div.style.width = '10px';
+    div.style.height = '10px';
+    div.style.backgroundColor = 'white';
+    div.style.position = 'absolute';
+    div.style.top = y;
+    div.style.right = x;
+
+
+  },100)
+
+</script> -->
   </body>
+
 </html>
